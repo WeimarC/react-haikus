@@ -1,0 +1,17 @@
+header {
+  height: 56px;
+  background-color: var(--rosa-claro);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cajaBuscador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lupa{
+    
+}
