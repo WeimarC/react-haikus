@@ -1,17 +1,32 @@
 header {
-  height: 56px;
+  height: 60px;
   background-color: var(--rosa-claro);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#cajaBuscador {
+#contenedorBuscadorHeader {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid white; 
 }
 
-#lupa{
-    
+#buscador{
+  flex-grow: 1; 
+  background-color: var(--rosa-claro);
+  outline-style: none;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  color: white;
+}
+
+#IconoBuscador{
+  color: white;
+}
+
+#buscador::placeholder {
+  color: var(--color-claro-buscador);
 }

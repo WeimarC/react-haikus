@@ -1,0 +1,19 @@
+#tituloPrincipal{
+    text-align: center;
+    font-family: var(--fuente-texto);
+    border-bottom: 2px solid var(--color-bordes);
+  }
+  
+.subtitulo{
+    font-family: var(--fuente-texto);
+    border-bottom: 2px solid var(--color-bordes);
+  }
+
+.texto{
+    font-family: var(--fuente-texto);
+    text-align: center;
+}
+
+  .subtitulo{
+      text-align: left;
+  }

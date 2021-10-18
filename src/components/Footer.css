@@ -1,0 +1,18 @@
+footer{
+    background-color: var(--rosa-claro);
+}
+
+ul{
+    list-style-type: none;
+}
+
+.logos img {
+    height: 25px;
+    margin: 2rem;
+}
+
+.logos ul {
+    display: flex;
+    justify-content: center;
+}
+
