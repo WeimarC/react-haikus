@@ -1,24 +1,18 @@
 import React from "react";
 import "./Footer.css";
+import LinkFooter from "./LinkFooter";
+import { faEnvelope, faShare } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
-    <div>
-      <footer>
-        <div className="iconsFooter">
-          <div className="logos">
-            <ul>
-              <li>
-                <img src="email.svg" alt="" className="email" />
-              </li>
-              <li>
-                <img src="share.svg" alt="" className="share" />
-              </li>
-            </ul>
-          </div>
-        </div>
-      </footer>
-    </div>
+    <footer>
+      <div className="iconsFooter">
+        <div className="logos">
+      <LinkFooter icono={faEnvelope} texto="Contactanos" />
+      <LinkFooter icono={faShare} texto="Compartir" />
+      </div>
+      </div>
+    </footer>
   );
 };
 

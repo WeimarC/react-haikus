@@ -1,0 +1,17 @@
+.ContenedorLinkFooter{
+    margin: 1rem;
+}
+
+.IconoLinkFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.TextoLinkFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fuente-texto);
+}
