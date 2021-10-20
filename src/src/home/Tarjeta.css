@@ -1,0 +1,23 @@
+.imagenTarjeta{
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedorTarjeta{
+    display: grid;
+    justify-content: center;
+}
+
+.cuerpoTarjeta{
+    display: flex;
+    justify-content: center;
+}
+
+.foto-perfil{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}

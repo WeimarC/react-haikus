@@ -1,10 +1,10 @@
-#tituloPrincipal{
+.H1{
     text-align: center;
     font-family: var(--fuente-texto);
     border-bottom: 2px solid var(--color-bordes);
   }
   
-.subtitulo{
+/* .subtitulo{
     font-family: var(--fuente-texto);
     border-bottom: 2px solid var(--color-bordes);
   }
@@ -16,4 +16,4 @@
 
   .subtitulo{
       text-align: left;
-  }
+  } */
