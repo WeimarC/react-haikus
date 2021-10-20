@@ -1,23 +1,35 @@
-.imagenTarjeta{
-    display: flex;
-    justify-content: center;
-
-}
-
-.contenedorTarjeta{
-    display: grid;
-    justify-content: center;
-}
-
 .cuerpoTarjeta{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border-style: solid;
+    border-top: none;
+    border-color: var(--color-bordes);
 }
 
-.foto-perfil{
-    display: flex;
-    justify-content: center;
+.fotoDePerfil{
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.imagenP{
+    width: 100%;
+}
+
+.TituloDelHaiku{
+    font-family: var(--fuente-texto);
+    margin-left: 10px;
+}
+
+.icono{
+    color: grey;
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+.fotoYTituloH{
+    display: flex;
+    justify-content: space-between;
 }

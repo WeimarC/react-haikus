@@ -1,17 +1,18 @@
 import React from "react";
 import "./Tarjeta.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShareAlt } from "@fortawesome/free-solid-svg-icons";
 
-const Tarjeta = ({ imagen, fotoDePerfil, NombreDelHaiku, icono }) => {
+const Tarjeta = ({ imagen, fotoDePerfil, NombreDelHaiku}) => {
   return (
-    <div className="contenedorTarjetas">
-      <div className="imagenTarjeta">
-        <img src={imagen} alt="/" />
-      </div>
+    <div>
+      <img src={imagen} alt="" className="imagenP" />
       <div className="cuerpoTarjeta">
-          <img src={fotoDePerfil} alt="/" className="foto-perfil"/>
-          <p className="nombre-Haiku">{NombreDelHaiku}</p>
-          <FontAwesomeIcon icon={icono} className="IconoCpmpartir" />
+        <div className="fotoYTituloH">
+          <img src={fotoDePerfil} alt="fotoDePerfil" className="fotoDePerfil" />
+          <p className="TituloDelHaiku">{NombreDelHaiku}</p>
+        </div>
+        <FontAwesomeIcon icon={faShareAlt} className="icono"/>
       </div>
     </div>
   );
