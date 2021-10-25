@@ -9,8 +9,8 @@
 
 .fotoDePerfil{
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     margin-left: 10px;
 }
 
@@ -20,16 +20,18 @@
 
 .TituloDelHaiku{
     font-family: var(--fuente-texto);
+    text-align: center;
     margin-left: 10px;
 }
 
 .icono{
     color: grey;
-    font-size: 35px;
+    font-size: 25px;
     margin-right: 10px;
 }
 
 .fotoYTituloH{
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
