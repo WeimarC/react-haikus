@@ -11,8 +11,11 @@ const Contactanos = () => {
                 <LinkContactanos icono={faFacebook} className="iconFace" />
                 <LinkContactanos icono={faEnvelope} className="iconEmail" />
                 <LinkContactanos icono={faInstagramSquare} className="iconInstagram" />
-            </div>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae dignissimos consequuntur blanditiis laborum consequatur eveniet quisquam, magni officia praesentium recusandae explicabo repellendus? Debitis doloribus beatae laudantium, deserunt sunt, architecto animi vitae expedita pariatur iure doloremque dicta! Quia similique quasi corporis nisi totam repellat, cupiditate asperiores saepe beatae, consequatur, possimus quo? Nam, libero! Odit aperiam iusto nisi inventore expedita impedit aut.
+                
+            </div> 
+                <div className="text">
+                    <p className="texto" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, vel nam! Aliquid quam minima incidunt perferendis modi, impedit repellat ex a harum eius et non! Perferendis adipisci id eaque cupiditate.Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
         </div>
     )
 }

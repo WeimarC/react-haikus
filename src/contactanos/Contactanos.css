@@ -1,8 +1,16 @@
 .icons {
     display: flex;
     justify-content: center;
+    color:var(--rosa-claro);
+    font-size: 32px;
 }
 
 .iconFace {
     color: white;
+}
+
+.texto{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
 }
