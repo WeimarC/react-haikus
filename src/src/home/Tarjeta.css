@@ -35,3 +35,15 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.Haiku {
+    position: absolute;
+    color: white;
+    font-family: var(--fuente-texto);
+}
+
+.imagenYHaiku{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}

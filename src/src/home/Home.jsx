@@ -10,6 +10,7 @@ const Home = () => {
       <div className="contenedorTarjetas">
         <Tarjeta
           imagen="https://picsum.photos/500/300"
+          haiku="lorem asdasdasd asdfsafds retyret re retretret"
           fotoDePerfil="https://randomuser.me/api/portraits/men/32.jpg"
           NombreDelHaiku="Haiku"
         />
