@@ -8,13 +8,17 @@ import Home from "./src/home/Home";
 
 function App() {
   return (
-    <>
+    <> 
+{/*     <Router>
+      <Switch> */}
       <Header />
       <Main>
      {/*  <Contactanos /> */}
       <Home />
       </Main>
       <Footer />
+     {/*  </Switch>
+    </Router> */}
     </>
   );
 }
