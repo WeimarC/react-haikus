@@ -9,11 +9,13 @@ import Home from "./src/home/Home";
 function App() {
   return (
     <> 
-{/*     <Router>
+    {/* <Router>
       <Switch> */}
+      
+         {/* <Contactanos /> */}
       <Header />
       <Main>
-     {/*  <Contactanos /> */}
+
       <Home />
       </Main>
       <Footer />
