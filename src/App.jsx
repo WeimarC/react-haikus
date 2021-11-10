@@ -3,24 +3,28 @@ import Header from "./components/layout/Header";
 import Main from "./components/layout/Main";
 import Footer from "./components/layout/Footer";
 import Home from "./src/home/Home";
-/* import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"; */
-/* import Contactanos from "./contactanos/Contactanos"; */
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import Contactanos from "./contactanos/Contactanos";
 
 function App() {
   return (
     <> 
-    {/* <Router>
-      <Switch> */}
-      
-         {/* <Contactanos /> */}
+    <Router>
       <Header />
-      <Main>
-
-      <Home />
+      <Switch>
+        <Route path="/Home">
+          <Main>
+          <Home />
+          </Main>
+        </Route>
+        <Route path="/Contactanos">
+        <Main>
+      <Contactanos />
       </Main>
+        </Route>
+      </Switch>
       <Footer />
-     {/*  </Switch>
-    </Router> */}
+    </Router> 
     </>
   );
 }

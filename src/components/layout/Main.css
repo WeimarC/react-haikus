@@ -2,7 +2,13 @@
     text-align: center;
     font-family: var(--fuente-texto);
     border-bottom: 2px solid var(--color-bordes);
+    text-decoration: none;
+    color: black;
   }
+
+.Inicio {
+  text-decoration: none;
+}
   
 /* .subtitulo{
     font-family: var(--fuente-texto);

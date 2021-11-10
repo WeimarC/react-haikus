@@ -38,6 +38,7 @@
 
 .Haiku {
     position: absolute;
+    background-color: rgba(0, 0, 0, 0.144);
     color: white;
     font-family: var(--fuente-texto);
 }
