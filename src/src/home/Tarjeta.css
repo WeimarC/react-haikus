@@ -37,17 +37,20 @@
 }
 
 .Haiku {
+    display: block;
+    margin: 60px;
+    flex-direction: column;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.144);
     color: white;
     font-family: var(--fuente-texto);
+    text-align: center;
+    font-size: 20px;
 }
 
 .imagenYHaiku{
     position: relative;
     display: inline-block;
-    text-align: center;
 }
-
 
  
