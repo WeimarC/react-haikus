@@ -9,8 +9,8 @@ const Footer = () => {
     <footer>
       <div className="iconsFooter">
         <div className="logos">
-        <Link to="/Contactanos" className="c"><LinkFooter icono={faEnvelope} texto="Contactanos" /></Link>
-        <LinkFooter icono={faShare} texto="Compartir" />
+        <Link to="/Contactanos" className="contactar"><LinkFooter icono={faEnvelope} texto="Contactanos" /></Link>
+        <Link to="/Home/Compartir" className="contactar"><LinkFooter icono={faShare} texto="Compartir" /></Link>
       </div>
       </div>
     </footer>

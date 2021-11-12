@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const Tarjeta = ({ imagen, fotoDePerfil, NombreDelHaiku, haiku}) => {
   const [invisible, setInvisible] = useState(true);
 
-
+ 
 
   const cambiarVisibilidad = () => {
     if( invisible === false  ) {
