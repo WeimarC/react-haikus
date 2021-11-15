@@ -1,7 +1,7 @@
 import "./LinkFooter.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const LinkFooter = ({ icono, texto }) => {
+const LinkFooter = ({ icono, texto}) => {
   return (
     <div className="ContenedorLinkFooter">
       <FontAwesomeIcon icon={icono} className="IconoLinkFooter" />
