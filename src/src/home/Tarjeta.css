@@ -37,14 +37,16 @@
 }
 
 .Haiku {
-    flex-direction: column;
-    vertical-align: middle;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.144);
     color: white;
     font-family: var(--fuente-texto);
     text-align: center;
     font-size: 20px;
+}
+
+.Haiku{
+    left: auto;
 }
 
 .imagenYHaiku{
