@@ -37,8 +37,8 @@
 }
 
 .Haiku {
-    display: block;
     flex-direction: column;
+    vertical-align: middle;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.144);
     color: white;

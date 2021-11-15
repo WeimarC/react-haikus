@@ -5,7 +5,7 @@ import Footer from "./components/layout/Footer";
 import Home from "./src/home/Home";
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import Contactanos from "./contactanos/Contactanos";
-/* import Compartir from "./components/layout/Compartir"; */
+import Compartir from "./components/layout/Compartir";
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
         <Route path="/Contactanos">
         <Main>
       <Contactanos />
+      <Compartir/>
       </Main>
         </Route>
       </Switch>
