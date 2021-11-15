@@ -5,8 +5,9 @@ import Tarjeta from "./Tarjeta";
 
 const Home = () => {
   return (
-    <div className="container">
+    <div>
       <h4 className="H4">Colección</h4>
+      <div className="container">
       <div className="contenedorTarjetas">
         <Tarjeta className="c1"
           imagen="https://picsum.photos/500/300"
@@ -62,6 +63,7 @@ const Home = () => {
           fotoDePerfil="https://images.ecestaticos.com/3NSJx7Qpj6wn7C14H4vMGm9svbU=/0x0:990x557/1600x900/filters:fill(white):format(JPG)/f.elconfidencial.com/original/62c/e5d/314/62ce5d3141c0b670144a692b7f6a21fa.jpg"
           NombreDelHaiku="Haiku"
         />
+      </div>
       </div>
     </div>
   );
